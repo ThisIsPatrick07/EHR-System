@@ -1,0 +1,31 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f0f8ff; /* Light blue (AliceBlue) for a clinical, soothing atmosphere */
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	max-width: 800px;
+	margin: 0 auto;
+	font-family: 'Trebuchet MS', sans-serif;
+  }
+  
+  .header {
+	color: #2c3e50;
+	margin-bottom: 10px;
+	font-size: 2rem;
+	font-weight: 600;
+  }
+  
+  .subHeader {
+	color: #7f8c8d;
+	margin-bottom: 30px;
+	font-size: 1.2rem;
+  }
+  
+  .requiredText {
+	color: #e74c3c;
+	font-weight: bold;
+  }
+  

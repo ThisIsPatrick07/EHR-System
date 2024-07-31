@@ -1,0 +1,50 @@
+.optionContainer {
+	margin-bottom: 25px;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Trebuchet MS', sans-serif;
+  }
+  
+  .label {
+	font-weight: 600;
+	color: #34495e;
+	margin-bottom: 10px;
+	font-size: 1.1rem;
+  }
+  
+  .selectField {
+	padding: 14px 20px;
+	width: 210px;
+	border: 1px solid #dfe6e9;
+	border-radius: 35px;
+	font-size: 1.1rem;
+	font-family: 'Trebuchet MS', sans-serif;
+	transition: border-color 0.3s ease, box-shadow 0.3s ease;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow similar to input fields */
+	appearance: none; /* Remove default dropdown arrow */
+	background-color: #fff;
+	background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 140 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%233498db' d='M70 98L20 48h100z'/%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-position: right 15px center;
+	background-size: 12px;
+  }
+  
+  .selectField:focus {
+	border-color: #3498db;
+	outline: none;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .selectField option {
+	padding: 10px;
+	font-family: 'Trebuchet MS', sans-serif;
+  }
+  
+  .requiredStar {
+	color: red;
+	margin-left: 5px;
+	font-size: 1.2rem;
+	vertical-align: middle;
+	font-family: 'Trebuchet MS', sans-serif;
+  }
+  

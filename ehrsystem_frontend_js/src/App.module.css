@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+	font-family: 'Trebuchet MS', sans-serif;
+	background-color: #e6f7ff;
+	/* Soft pastel blue for the overall app background */
+	color: #34495e;
+}
+
+#root {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}

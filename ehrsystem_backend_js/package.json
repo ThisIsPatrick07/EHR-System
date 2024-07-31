@@ -1,0 +1,20 @@
+{
+	"name": "ehrsystem_backend_js",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "commonjs",
+	"scripts": {
+		"start": "node src/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"aws-sdk": "^2.1665.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2",
+		"pg": "^8.12.0"
+	}
+}
